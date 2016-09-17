@@ -6,7 +6,7 @@ Json Utils
 JSONMinify.minify(payload)
 -----
 
-This is needed for verifying Github Enterprise HMAC Webhook signatures. Since the payload is a JSON payload, it needs to be the minified version of the JSON to properly generate a valid HMAC SHA1 value of the payload.
+This is needed for verifying Github Enterprise HMAC Webhook signatures. Since the payload is a JSON payload, it needs to be the minified version of the JSON to properly generate a valid HMAC SHA1 value of the payload. Results are the same as using http://beautifytools.com/json-minifier.php.
 
 ```java
   /**
