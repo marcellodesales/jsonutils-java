@@ -3,8 +3,8 @@ Json Utils
 
 * JSONMinify: properly Minifies JSON to be used on Github HMAC verification, specially for validation of HMAC signatures of Github Enterprise Webhook hooks.
 
-Use
-======
+JSONMinify.minify(payload)
+-----
 
 This is needed for verifying Github Enterprise HMAC Webhook signatures. Since the payload is a JSON payload, it needs to be the minified version of the JSON to properly generate a valid HMAC SHA1 value of the payload.
 
