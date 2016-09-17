@@ -22,3 +22,8 @@ Maven Dependency Coordinate
   <version>1.0.0</version>
 </dependency>
 ```
+
+Dev
+=====
+
+* Initial Setup in Maven Central: https://issues.sonatype.org/browse/OSSRH-25026
