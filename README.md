@@ -40,7 +40,7 @@ Gradle Dependency Coodinate
 -------
 
 ```groovy
-  runtime 'com.github.marcellodesales:json-utils:1.0.0'
+  compile 'com.github.marcellodesales:json-utils:1.0.0'
 ```
 
 Maven Dependency Coordinate
